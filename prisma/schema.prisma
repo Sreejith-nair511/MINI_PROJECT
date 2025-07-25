@@ -1,0 +1,31 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+
+  // Relation: A user can have many stocks
+  stocks Stock[]
+}
+
+model Stock {
+  id        Int      @id @default(autoincrement())
+  name      String
+  symbol    String
+  quantity  Int
+  createdAt DateTime @default(now())
+
+  // Foreign key: relates to User
+  userId Int
+  user   User @relation(fields: [userId], references: [id])
+}
