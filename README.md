@@ -47,7 +47,7 @@ This application serves as both a functional trading simulator and an educationa
 - **API**: RESTful service architecture
 
 ### Frontend Technologies
-- **Framework**: React (V0.dev generated)
+- **Framework**:React
 - **Styling**: Modern CSS with responsive design
 - **Charts**: Chart.js for data visualization
 - **State Management**: React hooks and context
