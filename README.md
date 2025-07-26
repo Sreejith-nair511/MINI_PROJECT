@@ -1,10 +1,10 @@
 # SmartStock: Portfolio Management & Trading  Platform
 
-SmartStock is a comprehensive full-stack application designed to simulate real-world stock trading experiences. The platform enables users to manage investment portfolios, execute trades, and monitor market performance while demonstrating advanced database management concepts including transactions, concurrency control, and data normalization.
+SmartStock is a comprehensive full-stack application designed to manage real-world stock trading experiences. The platform enables users to manage investment portfolios, execute trades, and monitor market performance while demonstrating advanced database management concepts including transactions, concurrency control, and data normalization.
 
 ## Overview
 
-This application serves as both a functional trading simulator and an educational tool for understanding critical database management system (DBMS) concepts. The platform features an intuitive user interface built with modern web technologies and a robust backend architecture supporting real-time trading operations.
+This application serves as both a functional trading managment and an predictive tool  tool for understanding critical database management system (DBMS) concepts. The platform features an intuitive user interface built with modern web technologies and a robust backend architecture supporting real-time trading operations.
 
 ## Core Features
 
